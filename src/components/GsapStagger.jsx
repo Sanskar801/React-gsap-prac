@@ -14,7 +14,7 @@ export default function GsapStagger() {
 
             stagger: {
                 amount: 1.5,
-                ease: 'circ'
+                ease: 'bounce'
             }
         })
     });

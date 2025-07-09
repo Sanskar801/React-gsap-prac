@@ -79,6 +79,16 @@ h1, h2 {
   align-items: center;
 }
 
+.blueBox {
+  width: 8rem;
+  height: 8rem;
+  border-radius: .5rem;
+  background-color: rgb(25, 45, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .slide {
   display: flex;
   gap: 1rem;
