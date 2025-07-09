@@ -4,6 +4,15 @@
   padding: 2rem;
 }
 
+section {
+  height: 80vh;
+  width: 100%;
+}
+
+h1, h2 {
+  text-decoration: underline;
+}
+
 .container {
   width: 100%;
   height: max-content;
@@ -57,4 +66,14 @@
 
 .btn:active {
   scale: 1;
+}
+
+.redBox {
+  width: 8rem;
+  height: 8rem;
+  border-radius: .5rem;
+  background-color: rgb(228, 25, 25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -20,7 +20,8 @@ export default function FromTo() {
             x: xPostion,
             y: yPosition,
             duration: 1,
-            rotate: rotationValue
+            rotate: rotationValue,
+            ease: "circ.out"
         });
     }, { dependencies: [xPostion, yPosition, rotationValue], revertOnUpdate: true });
 
@@ -36,6 +37,7 @@ export default function FromTo() {
 
     return (
         <section>
+            <h2>From To</h2>
             <div className="container" ref={container}>
                 <div className="box" ref={boxRef}>Box 1</div>
                 {/* <div className="circle">Circle 1</div> */}
