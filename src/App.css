@@ -50,7 +50,7 @@ h1, h2 {
 .btn {
   background-color: rgb(57, 236, 57);
   border: transparent;
-  width: 6rem;
+  width: fit-content;
   height: 3rem;
   border-radius: .5rem;
   box-shadow: 0 4px 12px rgba(57, 236, 57, 0.3), 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -58,6 +58,7 @@ h1, h2 {
   font-size: large;
   font-weight: bolder;
   color: black;
+  padding: .5rem 1rem;
 }
 
 .btn:hover {

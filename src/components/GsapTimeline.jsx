@@ -16,14 +16,15 @@ export default function GsapTimeline() {
             duration: 1,
             ease: "back.out"
         })
-    },[]);
+    }, []);
 
-  return (
-    <section>
-      <h2>TimeLine</h2>
-      <div className="container">
-        <div className='redBox'>Box</div>
-      </div>
-    </section>
-  )
+    return (
+        <section>
+            <h2>TimeLine</h2>
+            <div className="container">
+                <div className='redBox'>Box</div>
+                <button className='btn' onClick={() => { timeline.paused() ? timeline.play() : timeline.pause() }}>Play/Pause</button>
+            </div>
+        </section>
+    )
 }
