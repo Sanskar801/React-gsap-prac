@@ -37,3 +37,24 @@
   justify-content: center;
   align-items: center;
 }
+
+.btn {
+  background-color: rgb(57, 236, 57);
+  border: transparent;
+  width: 6rem;
+  height: 3rem;
+  border-radius: .5rem;
+  box-shadow: 0 4px 12px rgba(57, 236, 57, 0.3), 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* typograhy */
+  font-size: large;
+  font-weight: bolder;
+  color: black;
+}
+
+.btn:hover {
+  scale: 1.045;
+}
+
+.btn:active {
+  scale: 1;
+}
