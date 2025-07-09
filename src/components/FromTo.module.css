@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    height: max-content;
+}
+
+.box {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .5rem;
+    background-color: rgb(57, 236, 57);
+}
