@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <h1>React + GSAP</h1>
-      {/* <FromTo /> */}
-      {/* <GsapTimeline /> */}
+      <FromTo />
+      <GsapTimeline />
       <GsapStagger />
     </>
   )
